@@ -1,0 +1,9 @@
+{
+  "name": "CareerSathi",
+  "description": "An intelligent career guidance platform providing income insights, course roadmaps, and educational institution discovery.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
