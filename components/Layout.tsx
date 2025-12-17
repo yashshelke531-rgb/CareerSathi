@@ -60,8 +60,8 @@ const Layout: React.FC<LayoutProps> = ({ children, activeTool, setActiveTool }) 
         <div className="p-6">
           <div className="p-5 rounded-3xl bg-gradient-to-br from-slate-900 to-slate-800 border border-slate-700 shadow-xl group cursor-pointer overflow-hidden relative">
             <div className="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-            <p className="text-[10px] text-pink-400 font-bold uppercase mb-2 tracking-widest">v2.5 Intelligence</p>
-            <p className="text-xs font-semibold text-slate-300 leading-relaxed">Multimodal visuals enabled by Gemini 2.5</p>
+            <p className="text-[10px] text-pink-400 font-bold uppercase mb-2 tracking-widest">Advanced Intelligence</p>
+            <p className="text-xs font-semibold text-slate-300 leading-relaxed">Multimodal insights enabled by Gemini 3</p>
           </div>
         </div>
       </aside>
