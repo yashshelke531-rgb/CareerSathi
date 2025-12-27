@@ -5,7 +5,7 @@ import { Message } from '../types';
 
 const MentorChat: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([
-    { role: 'assistant', content: "Namaste! I am CareerSathi. Ask me anything, and I will show you the future through data and visuals." }
+    { role: 'assistant', content: "Namaste! I am Career Sarathi. Ask me anything, and I will show you the future through data and visuals." }
   ]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -30,7 +30,7 @@ const MentorChat: React.FC = () => {
         model: 'gemini-3-pro-preview',
         contents: userMessage,
         config: {
-          systemInstruction: `You are CareerSathi. For every user message, analyze the career context. 
+          systemInstruction: `You are Career Sarathi. For every user message, analyze the career context. 
           Respond with: 1. Strategic advice. 2. A 'Data Insight' section.
           Format your response to include a JSON-like metric section at the end if applicable: 
           METRICS: {"growth": 85, "demand": 90, "salary": "$120k", "difficulty": 70}`,

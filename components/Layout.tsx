@@ -29,7 +29,7 @@ const Layout: React.FC<LayoutProps> = ({ children, activeTool, setActiveTool }) 
             className="cursor-pointer hover:opacity-80 transition-opacity"
           >
             <h1 className="text-3xl font-extrabold tracking-tight mb-1">
-              <span className="gradient-text">CareerSathi</span>
+              <span className="gradient-text">Career Sarathi</span>
             </h1>
             <p className="text-[10px] text-slate-400 font-bold tracking-[0.2em] uppercase">Bharat's Career Ally</p>
           </div>
